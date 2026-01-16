@@ -24,8 +24,6 @@ local window = library:AddWindow("CHILE HUB Free Edition  | - Hola " .. displayN
 
 local AutoFarm = window:AddTab("Farm")
 
-mainTab:AddLabel("Anti AFK ACTIVADO por defecto ")
-
 -- Switch en la librería
 AutoFarm:AddSwitch("Strength Op ( SEMI OP)", function(state)
     getgenv()._AutoRepFarmEnabled = state

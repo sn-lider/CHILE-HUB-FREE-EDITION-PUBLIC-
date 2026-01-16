@@ -18,7 +18,7 @@ local displayName = player.DisplayName or player.Name
 
 local window = library:AddWindow("CHILE HUB FREE EDITION | - usado por  " .. displayName, {
     main_color = Color3.fromRGB(122, 162, 26),
-    min_size = Vector2.new(650, 870),
+    min_size = Vector2.new(500, 870),
     can_resize = false,
 })
 

@@ -449,7 +449,7 @@ AutoFarm:AddButton(" 0 LUZ ", function()
 end)
 
 
-local rebirthFolder = AutoFarm:AddFolder("Rebiths Without Packs")
+local rebirthFolder = AutoFarm:AddFolder("Rebiths NO Packs")
 
 -- Guardar objetivo de rebirths
 local targetRebirthAmount = nil
@@ -636,7 +636,7 @@ autoEquipToolsFolder:AddSwitch("Auto Punch", function(Value)
     end
 end)
 
-autoEquipToolsFolder:AddSwitch("equipamiento rapido", function(Value)
+autoEquipToolsFolder:AddSwitch("Fast tools", function(Value)
     _G.FastTools = Value
     
     local toolSettings = {
@@ -3572,4 +3572,5 @@ local Credits = window:AddTab("Credits")
 Credits:AddLabel("FREE edition By SN")
 Credits:AddLabel("Comparte a tus amigos el script para que lo utilizen ")
 Credits:AddLabel("Gracias por usar este script")
-Credits:AddLabel("Diviertete")
+
+Credits:AddLabel("EL ANTI AFK ESTA POR DEFECTO")

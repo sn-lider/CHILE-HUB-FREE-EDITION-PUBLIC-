@@ -3572,5 +3572,4 @@ local Credits = window:AddTab("Credits")
 Credits:AddLabel("FREE edition By SN")
 Credits:AddLabel("Comparte a tus amigos el script para que lo utilizen ")
 Credits:AddLabel("Gracias por usar este script")
-
 Credits:AddLabel("EL ANTI AFK ESTA POR DEFECTO")

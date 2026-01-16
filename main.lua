@@ -24,6 +24,10 @@ local window = library:AddWindow("CHILE HUB Free Edition  | - Hola " .. displayN
 
 local AutoFarm = window:AddTab("Farm")
 
+
+-- Estado inicial
+getgenv()._AutoRepFarmEnabled = false  
+
 AutoFarm:AddSwitch("Auto Eat Egg 30 Minuts", function(state)
     autoEatEnabled = state
 end)
